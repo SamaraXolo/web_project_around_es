@@ -1,240 +1,126 @@
-##### 🌎 Around The U.S. (85% terminado)
+🌎 Around The U.S. (85% terminado)
 
-##### 
 
-##### Aplicación web interactiva donde los usuarios pueden editar su perfil, agregar nuevas tarjetas con imágenes, dar “like”, eliminar tarjetas y visualizar imágenes en tamaño completo mediante ventanas modales.
 
-##### 
+Aplicación web interactiva donde los usuarios pueden editar su perfil, agregar nuevas tarjetas con imágenes, dar “like”, eliminar tarjetas y visualizar imágenes en tamaño completo mediante ventanas modales.
 
-##### Proyecto desarrollado con HTML, CSS (BEM) y JavaScript Vanilla, enfocado en manipulación del DOM y arquitectura modular básica.
+ 
 
-##### 
+Proyecto desarrollado con HTML, CSS (BEM) y JavaScript Vanilla, enfocado en manipulación del DOM y arquitectura modular básica.
 
-##### 🚀 Demo
 
-##### 
 
-##### 🔗 Live Demo: (Agrega aquí tu enlace de GitHub Pages / Vercel / Netlify)
+🚀 Demo
 
-##### 📁 Repositorio: (Agrega aquí el enlace a tu repo)
 
-##### 
 
-##### 📌 Funcionalidades
+🔗 Live Demo: (Agrega aquí tu enlace de GitHub Pages / Vercel / Netlify)
 
-##### 
+📁 Repositorio: (Agrega aquí el enlace a tu repo)
 
-##### ✏️ Edición de perfil mediante modal
 
-##### 
 
-##### ➕ Creación dinámica de nuevas tarjetas
+📌 Funcionalidades
 
-##### 
 
-##### ❤️ Botón de “Me gusta” con estado activo
 
-##### 
+✏️ Edición de perfil mediante modal
 
-##### 🗑 Eliminación de tarjetas del DOM
 
-##### 
 
-##### 🖼 Visualización de imagen en modal ampliado
+➕ Creación dinámica de nuevas tarjetas
 
-##### 
 
-##### ❌ Cierre de modales con botón dedicado
 
-##### 
+❤️ Botón de “Me gusta” con estado activo
 
-##### 🔄 Renderizado dinámico desde un array inicial
 
-##### 
 
-##### 📱 Diseño responsive
+🗑 Eliminación de tarjetas del DOM
 
-##### 
 
-##### 🛠 Tecnologías utilizadas
+🖼 Visualización de imagen en modal ampliado
 
-##### 
 
-##### HTML5
+❌ Cierre de modales con botón dedicado
 
-##### 
 
-##### CSS3
 
-##### 
+🔄 Renderizado dinámico desde un array inicial
 
-##### Metodología BEM
 
-##### 
 
-##### Estructura modular de bloques
+📱 Diseño responsive
 
-##### 
 
-##### JavaScript (ES6)
 
-##### 
+🛠 Tecnologías utilizadas
 
-##### Manipulación del DOM
 
-##### 
 
-##### Event Listeners
+HTML5
 
-##### 
 
-##### Template cloning
 
-##### 
+CSS3
 
-##### Modularización funcional
 
-##### 
 
-##### 🧠 Conceptos aplicados
+Metodología BEM
 
-##### 
+Estructura modular de bloques
+JavaScript (ES6)
+Manipulación del DOM
+Event Listeners
+Template cloning
+Modularización funcional
 
-##### querySelector() y selección contextual
+🧠 Conceptos aplicados
 
-##### 
+querySelector() y selección contextual
+addEventListener() y manejo de eventos
+preventDefault() en formularios
+classList.toggle() para estados visuales
+closest() para manipulación contextual del DOM
+Uso de <template> para renderizado dinámico
+Separación de lógica (openModal / closeModal)
+Renderizado inicial mediante forEach()
 
-##### addEventListener() y manejo de eventos
 
-##### 
+📂 Estructura del proyecto
 
-##### preventDefault() en formularios
+📦 web\_project\_around
 
-##### 
+┣ 📂 blocks
 
-##### classList.toggle() para estados visuales
+┣ 📂 images
 
-##### 
+┣ 📂 pages
 
-##### closest() para manipulación contextual del DOM
+┣ 📂 scripts
 
-##### 
+┣ 📂 vendor
 
-##### Uso de <template> para renderizado dinámico
+┗ 📄 index.html
 
-##### 
 
-##### Separación de lógica (openModal / closeModal)
+blocks/ → Estilos organizados bajo metodología BEM
+scripts/ → Lógica principal del proyecto
+vendor/ → Normalize y fuentes
+template HTML → Generación dinámica de tarjetas
 
-##### 
 
-##### Renderizado inicial mediante forEach()
+🎯 Próximas mejoras
 
-##### 
+Validación personalizada de formularios
+Cierre de modales con tecla ESC y clic fuera
+Persistencia de datos con LocalStorage
+Refactorización en clases ES6
+Animaciones suaves al abrir/cerrar modales
 
-##### 📂 Estructura del proyecto
+👩‍💻 Autora
+Desarrollado por Samara
+Frontend Developer en formación
 
-##### 📦 web\_project\_around
 
-##### &nbsp;┣ 📂 blocks
-
-##### &nbsp;┣ 📂 images
-
-##### &nbsp;┣ 📂 pages
-
-##### &nbsp;┣ 📂 scripts
-
-##### &nbsp;┣ 📂 vendor
-
-##### &nbsp;┗ 📄 index.html
-
-##### 
-
-##### 
-
-##### blocks/ → Estilos organizados bajo metodología BEM
-
-##### 
-
-##### scripts/ → Lógica principal del proyecto
-
-##### 
-
-##### vendor/ → Normalize y fuentes
-
-##### 
-
-##### template HTML → Generación dinámica de tarjetas
-
-##### 
-
-##### ⚙️ Instalación y uso
-
-##### 
-
-##### Clona el repositorio:
-
-##### 
-
-##### git clone https://github.com/tuusuario/tu-repo.git
-
-##### 
-
-##### 
-
-##### Abre index.html en tu navegador.
-
-##### 
-
-##### No requiere dependencias externas ni instalación adicional.
-
-##### 
-
-##### 🎯 Próximas mejoras
-
-##### 
-
-##### Validación personalizada de formularios
-
-##### 
-
-##### Cierre de modales con tecla ESC y clic fuera
-
-##### 
-
-##### Persistencia de datos con LocalStorage
-
-##### 
-
-##### Refactorización en clases ES6
-
-##### 
-
-##### Animaciones suaves al abrir/cerrar modales
-
-##### 
-
-##### 👩‍💻 Autora
-
-##### 
-
-##### Desarrollado por Samara
-
-##### Frontend Developer en formación
-
-##### 
-
-##### Si quieres, puedo:
-
-##### 
-
-##### Adaptarlo exactamente a tu implementación actual
-
-##### 
-
-##### Hacer una versión más técnica (nivel reclutador)
-
-##### 
-
-##### O una versión más visual con badges y preview GIF 🚀
 
