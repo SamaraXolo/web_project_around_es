@@ -65,12 +65,10 @@ Metodología BEM
 
 
 🎯 Próximas mejoras
-
-  Validación personalizada de formularios
-  Cierre de modales con tecla ESC y clic fuera
-  Persistencia de datos con LocalStorage
-  Refactorización en clases ES6
-  Animaciones suaves al abrir/cerrar modales
+  Verificación del URL ingresado
+  Cerrar la ventana emergente al hacer clic en la superposición
+  Cerrar la ventana emergente pulsando Esc
+  Restablecer la validación de formularios
 
 👩‍💻 Autora
 Desarrollado por Samara
