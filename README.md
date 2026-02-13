@@ -1,240 +1,240 @@
-# 🌎 Around The U.S. (85% terminado)
+##### 🌎 Around The U.S. (85% terminado)
 
-# 
+##### 
 
-# Aplicación web interactiva donde los usuarios pueden editar su perfil, agregar nuevas tarjetas con imágenes, dar “like”, eliminar tarjetas y visualizar imágenes en tamaño completo mediante ventanas modales.
+##### Aplicación web interactiva donde los usuarios pueden editar su perfil, agregar nuevas tarjetas con imágenes, dar “like”, eliminar tarjetas y visualizar imágenes en tamaño completo mediante ventanas modales.
 
-# 
+##### 
 
-# Proyecto desarrollado con HTML, CSS (BEM) y JavaScript Vanilla, enfocado en manipulación del DOM y arquitectura modular básica.
+##### Proyecto desarrollado con HTML, CSS (BEM) y JavaScript Vanilla, enfocado en manipulación del DOM y arquitectura modular básica.
 
-# 
+##### 
 
-# 🚀 Demo
+##### 🚀 Demo
 
-# 
+##### 
 
-# 🔗 Live Demo: (Agrega aquí tu enlace de GitHub Pages / Vercel / Netlify)
+##### 🔗 Live Demo: (Agrega aquí tu enlace de GitHub Pages / Vercel / Netlify)
 
-# 📁 Repositorio: (Agrega aquí el enlace a tu repo)
+##### 📁 Repositorio: (Agrega aquí el enlace a tu repo)
 
-# 
+##### 
 
-# 📌 Funcionalidades
+##### 📌 Funcionalidades
 
-# 
+##### 
 
-# ✏️ Edición de perfil mediante modal
+##### ✏️ Edición de perfil mediante modal
 
-# 
+##### 
 
-# ➕ Creación dinámica de nuevas tarjetas
+##### ➕ Creación dinámica de nuevas tarjetas
 
-# 
+##### 
 
-# ❤️ Botón de “Me gusta” con estado activo
+##### ❤️ Botón de “Me gusta” con estado activo
 
-# 
+##### 
 
-# 🗑 Eliminación de tarjetas del DOM
+##### 🗑 Eliminación de tarjetas del DOM
 
-# 
+##### 
 
-# 🖼 Visualización de imagen en modal ampliado
+##### 🖼 Visualización de imagen en modal ampliado
 
-# 
+##### 
 
-# ❌ Cierre de modales con botón dedicado
+##### ❌ Cierre de modales con botón dedicado
 
-# 
+##### 
 
-# 🔄 Renderizado dinámico desde un array inicial
+##### 🔄 Renderizado dinámico desde un array inicial
 
-# 
+##### 
 
-# 📱 Diseño responsive
+##### 📱 Diseño responsive
 
-# 
+##### 
 
-# 🛠 Tecnologías utilizadas
+##### 🛠 Tecnologías utilizadas
 
-# 
+##### 
 
-# HTML5
+##### HTML5
 
-# 
+##### 
 
-# CSS3
+##### CSS3
 
-# 
+##### 
 
-# Metodología BEM
+##### Metodología BEM
 
-# 
+##### 
 
-# Estructura modular de bloques
+##### Estructura modular de bloques
 
-# 
+##### 
 
-# JavaScript (ES6)
+##### JavaScript (ES6)
 
-# 
+##### 
 
-# Manipulación del DOM
+##### Manipulación del DOM
 
-# 
+##### 
 
-# Event Listeners
+##### Event Listeners
 
-# 
+##### 
 
-# Template cloning
+##### Template cloning
 
-# 
+##### 
 
-# Modularización funcional
+##### Modularización funcional
 
-# 
+##### 
 
-# 🧠 Conceptos aplicados
+##### 🧠 Conceptos aplicados
 
-# 
+##### 
 
-# querySelector() y selección contextual
+##### querySelector() y selección contextual
 
-# 
+##### 
 
-# addEventListener() y manejo de eventos
+##### addEventListener() y manejo de eventos
 
-# 
+##### 
 
-# preventDefault() en formularios
+##### preventDefault() en formularios
 
-# 
+##### 
 
-# classList.toggle() para estados visuales
+##### classList.toggle() para estados visuales
 
-# 
+##### 
 
-# closest() para manipulación contextual del DOM
+##### closest() para manipulación contextual del DOM
 
-# 
+##### 
 
-# Uso de <template> para renderizado dinámico
+##### Uso de <template> para renderizado dinámico
 
-# 
+##### 
 
-# Separación de lógica (openModal / closeModal)
+##### Separación de lógica (openModal / closeModal)
 
-# 
+##### 
 
-# Renderizado inicial mediante forEach()
+##### Renderizado inicial mediante forEach()
 
-# 
+##### 
 
-# 📂 Estructura del proyecto
+##### 📂 Estructura del proyecto
 
-# 📦 web\_project\_around
+##### 📦 web\_project\_around
 
-# &nbsp;┣ 📂 blocks
+##### &nbsp;┣ 📂 blocks
 
-# &nbsp;┣ 📂 images
+##### &nbsp;┣ 📂 images
 
-# &nbsp;┣ 📂 pages
+##### &nbsp;┣ 📂 pages
 
-# &nbsp;┣ 📂 scripts
+##### &nbsp;┣ 📂 scripts
 
-# &nbsp;┣ 📂 vendor
+##### &nbsp;┣ 📂 vendor
 
-# &nbsp;┗ 📄 index.html
+##### &nbsp;┗ 📄 index.html
 
-# 
+##### 
 
-# 
+##### 
 
-# blocks/ → Estilos organizados bajo metodología BEM
+##### blocks/ → Estilos organizados bajo metodología BEM
 
-# 
+##### 
 
-# scripts/ → Lógica principal del proyecto
+##### scripts/ → Lógica principal del proyecto
 
-# 
+##### 
 
-# vendor/ → Normalize y fuentes
+##### vendor/ → Normalize y fuentes
 
-# 
+##### 
 
-# template HTML → Generación dinámica de tarjetas
+##### template HTML → Generación dinámica de tarjetas
 
-# 
+##### 
 
-# ⚙️ Instalación y uso
+##### ⚙️ Instalación y uso
 
-# 
+##### 
 
-# Clona el repositorio:
+##### Clona el repositorio:
 
-# 
+##### 
 
-# git clone https://github.com/tuusuario/tu-repo.git
+##### git clone https://github.com/tuusuario/tu-repo.git
 
-# 
+##### 
 
-# 
+##### 
 
-# Abre index.html en tu navegador.
+##### Abre index.html en tu navegador.
 
-# 
+##### 
 
-# No requiere dependencias externas ni instalación adicional.
+##### No requiere dependencias externas ni instalación adicional.
 
-# 
+##### 
 
-# 🎯 Próximas mejoras
+##### 🎯 Próximas mejoras
 
-# 
+##### 
 
-# Validación personalizada de formularios
+##### Validación personalizada de formularios
 
-# 
+##### 
 
-# Cierre de modales con tecla ESC y clic fuera
+##### Cierre de modales con tecla ESC y clic fuera
 
-# 
+##### 
 
-# Persistencia de datos con LocalStorage
+##### Persistencia de datos con LocalStorage
 
-# 
+##### 
 
-# Refactorización en clases ES6
+##### Refactorización en clases ES6
 
-# 
+##### 
 
-# Animaciones suaves al abrir/cerrar modales
+##### Animaciones suaves al abrir/cerrar modales
 
-# 
+##### 
 
-# 👩‍💻 Autora
+##### 👩‍💻 Autora
 
-# 
+##### 
 
-# Desarrollado por Samara
+##### Desarrollado por Samara
 
-# Frontend Developer en formación
+##### Frontend Developer en formación
 
-# 
+##### 
 
-# Si quieres, puedo:
+##### Si quieres, puedo:
 
-# 
+##### 
 
-# Adaptarlo exactamente a tu implementación actual
+##### Adaptarlo exactamente a tu implementación actual
 
-# 
+##### 
 
-# Hacer una versión más técnica (nivel reclutador)
+##### Hacer una versión más técnica (nivel reclutador)
 
-# 
+##### 
 
-# O una versión más visual con badges y preview GIF 🚀
+##### O una versión más visual con badges y preview GIF 🚀
 
