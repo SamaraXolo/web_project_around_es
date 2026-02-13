@@ -24,6 +24,32 @@ const popupImage = imagePopup.querySelector(".popup__image");
 const popupCaption = imagePopup.querySelector(".popup__caption");
 const popupCloseButton = imagePopup.querySelector(".popup__close");
 
+const saveButton = editProfileModal.querySelector(".popup__button");
+const inputList = editProfileForm.querySelectorAll(".popup__input");
+
+function hasInvalidInput(inputList) {
+  // Función que revisa si existe AL MENOS un input inválido
+  return Array.from(inputList).some(function (input) {
+    // Convierte la lista de inputs en un array y revisa uno por uno
+    return !input.validity.valid;
+    // Devuelve true si este input NO es válido según HTML
+  });
+}
+
+function toggleButtonState(inputList, buttonElement) {
+  // Función que activa o desactiva el botón según el estado de los inputs
+  buttonElement.disabled = hasInvalidInput(inputList);
+}
+
+inputList.forEach((input) => {
+  // Recorre cada input del formulario
+  input.addEventListener("input", () => {
+    //se dispara cada vez que el usuario escribe o borra
+    toggleButtonState(inputList, saveButton);
+    // Cada cambio vuelve a evaluar si el botón debe estar activo o no
+  });
+});
+
 addCardButton.addEventListener("click", function () {
   openModal(newCardModal);
 });

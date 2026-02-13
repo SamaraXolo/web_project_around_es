@@ -55,12 +55,18 @@
               name="name"
               placeholder="Nombre"
               type="text"
+              required
+              minlength="2"
+              maxlength="40"
             />
             <input
               class="popup__input popup__input_type_description"
               name="description"
               placeholder="Acerca de mí"
               type="text"
+              required
+              minlength="2"
+              maxlength="200"
             />
             <button class="button popup__button" type="submit">Guardar</button>
           </form>
@@ -76,14 +82,14 @@
           <h3 class="popup__title">Nuevo lugar</h3>
           <form class="popup__form" id="new-card-form">
             <input
-              class="popup__input popup__input_type_card-name"
+              class="popup__input popup__input_type_card-name required"
               name="place-name"
               placeholder="Título"
               required
               type="text"
             />
             <input
-              class="popup__input popup__input_type_url"
+              class="popup__input popup__input_type_url required"
               name="link"
               placeholder="Enlace a la imagen"
               required

@@ -31,6 +31,10 @@
   cursor: pointer;
 }
 
+.popup__button:disabled {
+  background: red;
+  opacity: 80%;
+}
 .popup__close {
   width: 35px;
   height: 35px;
