@@ -58,16 +58,19 @@
               required
               minlength="2"
               maxlength="40"
+              id="card-name"
             />
+            <span class="popup__error" id="card-name-error"></span>
             <input
               class="popup__input popup__input_type_description"
               name="description"
               placeholder="Acerca de mí"
               type="text"
               required
-              minlength="2"
-              maxlength="200"
-            />
+              https://docs.google.com/spreadsheets/d/1X_qZ2VPcHZtZA-Yfl1_TrLtum6ZGwwSNG4skMby3dZ8/edit?usp=sharing
+              id="card-description"
+              />
+            <span class="popup__error" id="card-description-error"></span>
             <button class="button popup__button" type="submit">Guardar</button>
           </form>
         </div>
@@ -87,14 +90,20 @@
               placeholder="Título"
               required
               type="text"
+              minlength="2"
+              maxlength="30"
+              id="place-name"
             />
+            <span class="popup__error" id="place-name-error"></span>
             <input
               class="popup__input popup__input_type_url required"
               name="link"
               placeholder="Enlace a la imagen"
               required
               type="url"
+              id="link-place"
             />
+            <span class="popup__error" id="link-place-error"></span>
             <button class="button popup__button" type="submit">Crear</button>
           </form>
         </div>

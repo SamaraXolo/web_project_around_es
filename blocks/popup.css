@@ -32,8 +32,18 @@
 }
 
 .popup__button:disabled {
-  background: red;
-  opacity: 80%;
+  background-color: #c4c4c4;
+  cursor: default;
+}
+
+.popup__error {
+  color: #ff0000;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 .popup__close {
   width: 35px;
