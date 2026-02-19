@@ -1,4 +1,4 @@
-🌎 Around The U.S. (85% terminado)
+🌎 Around The U.S.
 
 Aplicación web interactiva donde los usuarios pueden editar su perfil, agregar nuevas tarjetas con imágenes, dar “like”, eliminar tarjetas y visualizar imágenes en tamaño completo mediante ventanas modales.
 
